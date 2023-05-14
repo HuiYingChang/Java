@@ -140,10 +140,25 @@ public class App {
          /* 將使用者輸入的字串轉為數字*/
          String userinput = bf.readLine();
          int player = Integer.parseInt(userinput);  /*這兩行可簡化成int player = Integer.parseInt(bf.readLine()); */
-        /* 判斷結果告知輸贏*/
-        //if (userinputnum == ans) 
-            //System.out.println("答對啦 你真棒");
-        //else
-            //System.out.println("答錯啦 正確答案是"+ ans );
-     }
+          // 電腦出剪刀，玩家出石頭
+          if(pc == 0 && player == 1)
+          System.out.println("你贏了");
+          // 電腦出剪刀，玩家出布
+          if(pc == 0 && player == 2)
+          System.out.println("你輸了");
+         // 電腦出石頭，玩家出剪刀
+          if(pc == 1 && player == 0)
+          System.out.println("你輸了");
+         // 電腦出石頭，玩家出布
+          if(pc == 1 && player == 2)
+          System.out.println("你贏了");
+         // 電腦出布，玩家出剪刀
+          if(pc == 2 && player == 0)
+          System.out.println("你贏了");
+         // 電腦出布，玩家出石頭
+          if(pc == 2 && player == 1)
+          System.out.println("你輸了");
+          if(pc == player)
+          System.out.println("平手");
+  }   
 }
