@@ -1,4 +1,4 @@
-package Toyota;
+package Benz;
 public class Car {
     public String type = "車子";
     public String color = "白色";

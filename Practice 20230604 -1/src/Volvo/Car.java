@@ -1,7 +1,7 @@
-/*package Benz;
+package Volvo;
 public class Car {
     public String type = "車子";
-    public String color = "白色";
+    public String color = "黑色";
 
     public int gas = 0;
      // 建構式
@@ -28,4 +28,4 @@ public class Car {
 
     }
 
-}*/
+}

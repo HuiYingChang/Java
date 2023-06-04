@@ -1,4 +1,4 @@
-package Benz;
+/*package Benz;
 public class SportCar extends Car {
 
     public SportCar(String color, int gas) {
@@ -17,7 +17,7 @@ public class SportCar extends Car {
         // return false;
         // }
 /*上面幾行可簡寫成下面一行 */
-        return color.equals(s.color);
+        /*return color.equals(s.color);
 
     }
-}
+}*/

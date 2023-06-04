@@ -1,4 +1,4 @@
-package Toyota;
+package Volvo;
 public class SportCar extends Car {
 
     public SportCar(String color, int gas) {

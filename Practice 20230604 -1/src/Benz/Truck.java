@@ -1,6 +1,4 @@
-/*package Volvo;
-
-
+package Benz;
 public class Truck extends Car {
     public String type = "卡車"; //如果要定義在這 底下每一個要顯示的內容都要重新呼叫一遍才能複寫(override)car裡面的內容
 
@@ -11,4 +9,4 @@ public class Truck extends Car {
     public void release() {
         System.out.println("卸貨");
     }
-}*/
+}
